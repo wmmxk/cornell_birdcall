@@ -6,3 +6,15 @@ kaggle-birdsong-recognition/src/test/test_sed_denseattmodel.py
 
 
 
+The two layer for loops, the inner loop should be the outer loop. kaggle-birdsong-recognition/src/test/cornell-birdcall-identification-1st-place-solution.py:998
+ The key represents a model, and the value is a list of df, each df holds all the predictions of an audio.
+
+This prediction problem is like object detection. Here object is an event (a birdcall). When ensemble the prediction
+  by multiple model, we need to name each event by site_id_audio_id and start_section/cur_section. If the same events
+  are predicted by multiple models, use a threshold to determine it is really a positive or not.
+
+High level backbone:
+1. clipwise prediction, framewise prediction.
+   Extract each event along the frame dimesion is like object detection. There is a postprocessing process.
+2. Ensemble the prediction of multiple models.
+3.
