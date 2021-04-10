@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/kaggle-birdcall-6th-place" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/kaggle-birdsong-recognition" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kaggle_birdsong_recognition" vcs="Git" />
   </component>
 </project>

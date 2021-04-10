@@ -26,7 +26,7 @@
     -> fully connection layer: [10, 93, 1024]
     -> transpose back: [10, 1024, 93]
 - 3.attention block
-    -> norm_att, attenion layer is a conv1d layer+softmax, [10, 264, 93]
+    -> norm_att, attention layer is a conv1d layer+softmax, [10, 264, 93]
     -> cla, the same input to attention is passed to conv1d+sigmoid, [10, 264, 93]
     -> norm_att * cla, x, the sum over the last dimension, [10, 264]
     return x (clipwise output), norm_att, cla (segmentwise output)    
