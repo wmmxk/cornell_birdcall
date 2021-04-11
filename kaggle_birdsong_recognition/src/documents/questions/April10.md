@@ -15,3 +15,20 @@
     
 2. Is birdclef competition the same as the cornell one? If so, find the weight of the inference model
    of the winning solution last time. 
+   
+   
+3. Interpolation is just to make a duplicate of each element multiple times, [1, 2, 3] ->repeate twice, [1, 1, 2, 2, 3,3] 
+   kaggle_birdsong_recognition/src/test/cornell-birdcall-identification-1st-place-solution.py:384
+   
+4. global_time += PERIOD, PERIOD is involved in the following places:
+   kaggle_birdsong_recognition/src/test/cornell-birdcall-identification-1st-place-solution.py:901
+   kaggle_birdsong_recognition/src/test/cornell-birdcall-identification-1st-place-solution.py:971
+   
+?? 5. How is the clipwise prediction is used? The 1st winner said, it is used, but it seems it is not necessary to do so
+    after you understand how clipwise prediction is extracted from segmentwise prediction.
+    
+?? What is mix up?
+
+?? Did the 1st winner use cross-validation?
+
+       

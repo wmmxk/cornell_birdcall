@@ -1,0 +1,8 @@
+April 10
+Go through the inference process again, pay attention on how the clipwise prediction is derived from
+  the segmentwise prediction.
+
+
+Go through the public notebook for the new competition, you are trying to use the code for previous competition in this new
+   competition, look into the new competition:
+   https://www.kaggle.com/hidehisaarai1213/pytorch-training-birdclef2021-starter
