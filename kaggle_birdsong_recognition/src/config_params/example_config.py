@@ -88,9 +88,9 @@ class Parameters(object):
         }
         
         self.train_bs = 28
-        self.train_num_workers = 2 # changed to 2 workers
+        self.train_num_workers = 0 #  0 for walk through the code
         self.valid_bs = 32
-        self.valid_num_workers = 1 # changed to 1 workers
+        self.valid_num_workers = 0 # changed to 1 workers
         self.metrics = ["lraps", "f1score_clip", "f1score_frame"]
         
         self.track_metric = "f1score_clip"
